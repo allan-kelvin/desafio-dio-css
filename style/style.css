@@ -1,0 +1,136 @@
+:root{
+    --color-azul: #33A8D8;
+    --modulo-cor: #252525;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    line-height: 24px;
+    background-image: url(../assets/images/banner.png);
+    
+}
+
+.banner, .banner-content{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+.logo{
+    background-color: #000000;
+    width: 268px;
+    height: 268px;
+    border-radius: 50%; 
+}
+
+h1{
+    font-family: Raleway;
+    color:var(--color-azul);
+    text-transform: uppercase;
+    line-height: 26px;
+    font-size: 40px;
+    padding: 1rem;
+}
+
+h2{
+    font-family: Raleway;
+    color:var(--color-azul);
+    text-transform: uppercase;
+    line-height: 37px;
+    font-size: 32px;
+    padding: 1rem;
+    letter-spacing: 10px;
+    font-weight: 700;
+
+}
+
+p{
+    padding: 1rem;
+}
+
+button{
+    border: 2px solid var(--color-azul);
+    color: var(--color-azul);
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 19px 91px;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 16px;
+    align-items: center;
+    line-height: 18px;
+}
+
+#course-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.module{
+    background-color: var(--modulo-cor);
+    border: 1px solid var(--color-azul);
+    border-radius: 57px;
+    padding: 16px 127px;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.module span{
+    color: var(--color-azul);
+}
+
+#transform-world{
+    height: 360px;
+    top: 1138px;
+    background-image: url(../assets/images/woman-code.png);
+    border: 1px solid var(--color-azul);
+    perspective: 1px;
+    z-index: -1;
+}
+
+#transform-world p{
+    font-family: Raleway;
+    width: 244px;
+    height: 141px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    box-shadow:inset 3px 2px 1px var(--color-azul);
+}
+#professional-challenges{
+    text-align: center;
+}
+
+#professional-challenges h2{
+  padding: 45px;
+}
+
+#professional-challenges p {
+    align-items: center;
+    text-align: justify;
+    padding: 30px;
+    margin: 30px;
+}
+
+footer{ 
+    width: 1440px;
+    height: 170px;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    border: 1px solid var(--color-azul);
+}
